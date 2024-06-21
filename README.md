@@ -22,21 +22,6 @@ Maximum transactions are from UK
 RFM is Recency, Frequency, Monetary. It looks at what was the last time a customer transacted, how frequent they transacted and what monetary value they bring to the business as factors to assign score to customers. These scores can further be used to group customers.
 
 
-
-# Summary
-+--------+-------------------------------+------+---------------------------+
-| Sr No. |           Model_Name          | Data | Optimal_Number_of_cluster |
-+--------+-------------------------------+------+---------------------------+
-|   1    | K-Means with silhouette_score |  RM  |             2             |
-|   2    |   K-Means with Elbow methos   |  RM  |             2             |
-|   3    |             DBSCAN            |  RM  |             2             |
-|   4    | K-Means with silhouette_score |  FM  |             2             |
-|   5    |   K-Means with Elbow methos   |  FM  |             2             |
-|   6    |             DBSCAN            |  FM  |             2             |
-|   7    | K-Means with silhouette_score | RFM  |             2             |
-|   8    |   K-Means with Elbow methos   | RFM  |             2             |
-+--------+-------------------------------+------+---------------------------+
-
 Contact
 For any inquiries or feedback regarding this project, feel free to contact:
 
